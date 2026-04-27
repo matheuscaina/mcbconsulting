@@ -24,12 +24,15 @@
   <h1>Start Your Project</h1>
   <p>Tell us about your business needs and we’ll get back to you soon.</p>
 
-  <form class="contact-form">
-    <input type="text" placeholder="Your Name" required>
-    <input type="email" placeholder="Your Email" required>
-    <input type="text" placeholder="Company Name">
+  <form class="contact-form" action="https://formsubmit.co/mcbconsultingagency@gmail.com" method="POST">
 
-    <textarea placeholder="Tell us about your project..." rows="6"></textarea>
+    <input type="hidden" name="_captcha" value="false">
+
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <input type="text" name="company" placeholder="Company Name">
+
+    <textarea name="message" placeholder="Tell us about your project..." rows="6"></textarea>
 
     <button type="submit">Send Request</button>
   </form>
