@@ -154,6 +154,11 @@ p {
   text-decoration: none;
 }
 
+.footer-col a {
+  display: block;
+  margin-bottom: 10px;
+}
+
 .footer-col a:hover {
   color: #a78bfa;
 }
